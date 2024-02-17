@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+    <style>
+        body {
+    background-image: url(pexels-kawaiiart-1767434.jpg);
+    background-size: cover;
+    }
+    body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   margin: 0;
+}
+
+   .tab {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+    </style>
+<body>
+    <div class="tab" id="myTab">Start now</div>
+    
+    <script>
+        document.getElementById('myTab').addEventListener('click', function() { 
+            let gameNum ="lina";
+     let userNum = prompt  ("Enter your the name :");
+ 
+      while(userNum !=gameNum ) {
+      userNum = prompt ("you enter wrong name ! enter write name")
+   }
+  // Triggering an alert
+   alert('Tab Clicked!');
+  window.open("index.html");
+});
+
+    </script>
+</body>
+</html>

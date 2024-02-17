@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: C;
+    background-attachment: fixed;
+    background-image: url(pexels-kawaiiart-1767434.jpg);
+    background-size: cover;
+    transition: background-color 0.5s ease-out 100ms;
+    color: rgb(0, 0, 0);
+  }
+header{
+    height: 100px;
+}
+.navbar {
+  background-color: transparent;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.box{
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 40px; /* Set your desired logo width */
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-name {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.home {
+  text-decoration: solid;
+  color: black;
+}
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      margin-top: 10px;
+  }
+
+  .nav-links a {
+      margin: 5px 0;
+  }
+}
+.center-text {
+    text-align: center;
+    font-size: 2em; /* Adjust the font size as needed */
+    max-width: 80%; /* Adjust the maximum width as needed */
+}
+
+
+
+/* video div css */
+.main-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.video-container,
+.caption-container {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.video-container {
+  background-color: transparent;
+  border-style: groove;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.caption-container {
+  background-color: transparent;
+  /* border-style: groove; */
+  color: #000000;
+  font-weight: bold;
+  /* border-radius: 10px; */
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .video-container,
+  .caption-container {
+    flex: auto;
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    flex: auto;
+    margin-bottom: 10px;
+  }
+}
+p{
+  font-size: 15px;
+}
+h2{
+  color:  #ff00d4;
+}
